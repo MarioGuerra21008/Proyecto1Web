@@ -1,0 +1,104 @@
+.Login {
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    background-color: #404EED;
+    background-image: url('/background.svg');
+    margin: 0 0;
+    top:0;
+    left:0;
+    z-index:-1;
+    background-position: center;
+}
+
+.row-Button {
+    display: flex;
+}
+
+.discord-button {
+    display: flex;
+    top: 10%;
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 130px;
+    left: 40px;
+    align-items: center;
+    background-color: #404EED;
+}
+
+.text-discord-button {
+    border: none;
+    margin-top: 15px;
+    margin-left: 10px;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.login-discord-button {
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 225px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    color: #FFFFFF;
+}
+
+.info-text h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    src: url('/4dfcbf879ac5c3bdb6d3829f3b998de5.woff2') format('woff2')
+}
+
+.info-text p {
+    font-size: 19px;
+}
+  
+.nav-discord-button {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.download-button {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    color: #000000;
+    border-radius: 50px;
+}
+
+.nav-button {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    background-color: #23272A;
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.imgLogin {
+    position: absolute;
+    top: 71%;
+    transform: translateY(-50%);
+}
+
+.imgLogin:first-of-type {
+    left: -275px;
+}
+
+.imgLogin:last-of-type {
+    right: -225px;
+}

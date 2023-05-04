@@ -1,0 +1,33 @@
+.Communities {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    background-color: #FFFFFF;
+    margin: 0 0;
+    top:255%;
+    left:0;
+    z-index:-1;
+    background-position: center;
+}
+
+.imgCommunities {
+    position: absolute;
+    top: 17%;
+    right: 44%;
+}
+
+.communities-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    text-align: left;
+    margin-top: 9%;
+    margin-left: 63%;
+    height: 80%;
+    color: #23272A;
+}
+
+.communities-text p {
+    font-size: 19px;
+}
