@@ -9,20 +9,20 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" data-testid="app">
       <header className="header">
         <Login />
       </header>
-      <div>
+      <div data-testid="members">
         <Members />
       </div>
-      <div>
+      <div data-testid="voiceChats">
         <VoiceChats />
       </div>
-      <div>
+      <div data-testid="communities">
         <Communities />
       </div>
-      <div>
+      <div data-testid="download">
         <Download />
       </div>
       <footer className="footer">

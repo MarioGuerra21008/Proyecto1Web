@@ -3,7 +3,7 @@ import './VoiceChats.css';
 
 function VoiceChats() {
   return (
-    <div className="VoiceChats">
+    <div className="VoiceChats" data-testid="voiceChats">
       <div className="voicechats-text">
         <h1>
           Donde es fácil

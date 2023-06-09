@@ -3,7 +3,7 @@ import './Download.css';
 
 function Download() {
   return (
-    <div className="Download">
+    <div className="Download" data-testid="download">
       <div className="download-text">
         <h1>
           UNA TECNOLOGÍA FIABLE PARA

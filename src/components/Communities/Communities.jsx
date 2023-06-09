@@ -3,7 +3,7 @@ import './Communities.css';
 
 function Communities() {
   return (
-    <div className="Communities">
+    <div className="Communities" data-testid="communities">
       <div className="communities-text">
         <h1>
           De unos pocos

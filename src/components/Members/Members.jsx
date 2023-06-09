@@ -3,7 +3,7 @@ import './Members.css';
 
 function Members() {
   return (
-    <div className="Members">
+    <div className="Members" data-testid="members">
       <div className="members-text">
         <h1>
           Crea un lugar
